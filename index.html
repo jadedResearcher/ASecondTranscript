@@ -1,0 +1,302 @@
+<html>
+
+<head>
+  <title>The Truth About Alt</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="alt.ico" />
+
+  <script>
+    //https://dev.to/ekeijl/retro-crt-terminal-screen-in-css-js-4afh
+    const clickAudio = new Audio("audio/web_SoundFX_254286__jagadamba__mechanical-switch.mp3");
+    const humAudio = new Audio("audio/234918__timbahrij__ambient-low-hum-aircon.mp3");
+    let speed = 50;
+
+    const getRandomNumberBetween = (min, max) => {
+      return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    const pickFrom = (array) => {
+      return array[getRandomNumberBetween(0, array.length - 1)];
+    }
+
+    const sleep = (ms) => {
+      return new Promise(resolve => setTimeout(resolve, ms));
+    }
+
+    const transcript = async () => {
+      const linesUnedited = `Speaker 1: Hm.
+
+[FOOTSTEPS]
+
+Speaker 1: Quite the peculiar place you’ve brought me to, R3.
+
+[A SICKENING SQUELCH OF RENDERED FLESH, FOLLOWED BY CRACKING BONE]
+
+Speaker 2: You get used to it.
+
+Speaker 1: Curious. You can talk.
+
+Speaker 2: Sometimes.
+
+[BEAT]
+
+Speaker 2: Does that scare you?
+
+Speaker 1: Oh, it takes more than mere party tricks to unnerve me. 
+
+Speaker 1: Especially with, well… this.
+
+[REDACTED]
+
+Speaker 2: That’s good. I’d hate to do that to you.
+
+[BEAT]
+
+Speaker 1: You know, with how verbose your reports can be, I had expected you to blabber on a lot more than this. 
+
+Speaker 2: I have to write to compensate. Not too much, though. Otherwise, I tend to…
+
+Speaker 2: Lose my head.
+
+[GROAN]
+Speaker 1:  So not only can you speak, but you’re not even funny.
+
+Speaker 2: Ah.
+
+Speaker 2: You hurt me, Viktor.
+
+Speaker 1: Fine, then. It was a decent gag, if that would please you to hear. 
+
+Speaker 1: But enough of that. What is this place, pray tell?
+
+Speaker 2: Good question. 
+
+Speaker 2: This is the maze. It is an anomaly which exists outside of time, powered by an artificial intelligence-- much like home, in a way. It contains hundreds-- no, thousands of rooms, each dedicated to each and every horror mankind can fathom. 
+
+Speaker 2: Sometimes, when people are caught by obsession, they end up here. I would have seen to its containment if it weren’t for the fact that nearly every anomaly gravitates to this maze before 2022.
+
+Speaker 1: Fascinating. Of course your self-inflicted cabal of monsters rests here. I would ask about that date, but something tells me that I’d rather not know what happens.
+
+Speaker 2: Nothing good happens in that year, no.
+
+Speaker 1: Figured as much.
+
+Speaker 1: You know, if these anomalies are as dangerous as you have described them in the past, then disturbing their nest would have most likely saved you a lot of trouble.
+
+Speaker 2: Would it, now?
+
+Speaker 1: Surely it would have proven more efficient.
+
+Speaker 1: You are not harnessing anything from them, as far as you’ve shown your hand. If your goal is to stop them from interfering with this reality, then keeping them around is a moot point. They’re just taking up space. 
+
+Speaker 1: We didn’t bother with any anomalies we had already contained. This free-range method seems… inane.
+
+Speaker 2: Ah, of course, Viktor. I had not thought about it that way. Perhaps simply getting rid of all the monsters is the best solution after all.
+
+[UNSHEATHES SWORD.]
+
+Speaker 2: Would you mind if I started with you, then?
+
+Speaker 1: …
+
+Speaker 1: No. As uncivilized as I find your point, perhaps I see what you mean.
+
+[SHEATHES SWORD.]
+
+Speaker 2: I knew I could trust you to understand.
+
+[SIGH.]
+
+Speaker 1: So, tell me. What is it that you want? Surely it is not just to spit diatribe, threaten me, then wave your head around.
+
+Speaker 2: Oh, I’m not a fan of any of those, no. I… need something else from you, if that is alright.
+
+Speaker 1: A request. 
+
+Speaker 2: A trade, if you’d like.
+
+Speaker 1: ...I will listen.
+
+Speaker 2: Thank you.
+
+Speaker 2: Its… your voice. I need your voice. I ask you to speak for me.
+
+Speaker 1: …
+
+Speaker 1: No.
+
+Speaker 2: Not forever! And it would not be for nothing. I would remain at your service, if that is what you’d like.
+
+Speaker 1: There is nothing I want from you. I advise you to stop. Now.
+
+Speaker 2: I’m sure we could arrange something. There has to be something you lack. It is clear we both do. No one can hear me, and no one can see you. 
+
+Speaker 2: Doesn’t it feel lonely? Those around us can choose to move on from all of this, to live on, but we can only watch. Bound by the rules placed on us.
+ 
+
+Speaker 1: Fuck off.
+
+
+Speaker 2: It all makes us so… similar. Both cursed by monsters that no longer exist, both thrust into our role by circumstance. Both made to live by their tenets. 
+
+Speaker 2: That is why I’m asking you. The others may try, but they’ve been compromised. Presenting a united front is a complicated task when you can turn to your baser instincts at any moment. Besides, not everyone can make these decisions. They all need someone to look to for guidance. 
+
+Speaker 2: That is why we had a manager.
+
+Speaker 1: Fuck off.
+
+Speaker 2: Viktor.
+
+Speaker 2: The mission… I cannot accomplish it on my own. These civilians think all the research we have done is… silly. They think it’s funny. They laughed at me. Laughed at me.
+
+Speaker 2: A hundred years of work, and nobody cared. Because they cannot understand why it’s so important. With your help, we could make them.
+
+Speaker 1: Make them what? Learn a dozen different protocols for anomaly management that they’ll never use? No one knew or cared back home, let alone here. I’m sure the whole ‘not speaking’ thing hurts you plenty, but you cannot imprint an entire society with fear of the unknowable just because--
+
+Speaker 1: --why am I arguing with you? I don’t care. I’m not being a part of this.
+
+Speaker 2: You know how dangerous it was back there. It’s not the same, but… it does not mean that we should let our guard down. We were all given a second chance, and there is so much at stake. Our lives. The lives of our coworkers. Maybe more.
+
+Speaker 2: You said that your team had learned from our mistakes. If you are as advanced as you say you are, we could-- we could do good work. It could change lives.
+
+
+
+
+
+Speaker 1: Yes, yes, yes. Shower me with sob stories and emotional appeals and compliments to my ego all you want. You are not going to convince me to give my life again for the corps, let alone lead me down a path where I might tempt others, and if you thought that was something I would ever do, then you can shove it right up yours. 
+
+Speaker 1: Now take me back.
+
+Speaker 2: You…
+
+Speaker 2: You think I’m manipulating you. You think I’m lying so you will listen.
+
+Speaker 2: That’s… strange. I thought you would understand. 
+
+Speaker 2: I thought we might have been friends.
+
+Speaker 1: Friends. You think we’re friends?
+
+Speaker 1: Well, let me correct your erroneous assumption. All you have ever done is use me and those around me for your agenda without any consideration for what we might actually want. Even now, after I ask you to stop several times, you will not listen to me. My wellbeing is secondary only to your precious ‘mission’.
+
+Speaker 1: And that is your problem. I had to act tough, puff my chest, put those close to me in danger, just so any of you would even consider what we’d asked of you, yet you still showed up, demanding our cooperation. 
+
+Speaker 1: And you know what? When push came to shove, I let them choose. If Yongki and Khana want to work for the likes of you, then that is their choice. But there’s no thought spared to my wants, is there? What an unthinkable proposition. Instead you poke and prod at my edges like I’m some sort of zoo animal, testing how much I will tolerate. How much you can get away with.
+
+Speaker 1: I gave up a lot to keep that damn wheel turning. My body, my soul, my very self. And yet, even after it’s over, you have the audacity to show up with some story about how the world needs us, about how we’re friends, about how we’re all in this together.
+
+Speaker 1: It doesn’t, and we’re not. It is not my duty or anyone else’s to save everyone. I am angry, and I am tired. I did all that thankless work because I still hoped for a better life, and that was a ticket out. It is the story of everyone I have ever known. We have only ever been fodder. That is the fundamental truth of our world.
+
+Speaker 1: Perhaps at one point you knew this as well. But clearly, you have forgotten. 
+
+Speaker 1: Play the knight, if you so wish. But know you are a brute at heart, eager to solve with steel what you cannot with words, and as much a monster as any of your friends. But unlike them, you took what imprisoned you and declared yourself warden.
+
+Speaker 1: Know this was all your choice.
+
+[BEAT]
+
+Speaker 2: ...
+
+Speaker 2: I don’t get it. You can hear me. 
+
+Speaker 2: I thought... you’d understand.
+
+Speaker 2: I...
+
+Speaker 2: I have to leave.
+
+[RAPID FOOTSTEPS IN THE OTHER DIRECTION. THEY GET FURTHER AND FURTHER AWAY, UNTIL, FINALLY, THERE IS SILENCE.]
+
+Speaker 1: …
+
+Speaker 1: …
+
+
+Speaker 1: There’s no exit to this place, is there?
+
+Speaker 1: Shit.
+
+[SIGH]
+
+Speaker 1: Well. Time to wander.  
+      `;
+
+      const lines = linesUnedited.split("\n");
+        
+      const terminal = document.querySelector("#terminal");
+      terminal.innerHTML = "";
+      for(let line of lines){
+        const element = document.createElement("p");
+        if(line.includes("Speaker 1")){
+          element.style.color="red";
+        }
+        terminal.append(element);
+        await typeWrite(terminal,element, line)
+        await sleep(speed*10);
+
+      }
+      killer(terminal)
+    }
+
+    const killer = (parent)=>{
+      const element = document.createElement("p");
+      element.classList.add("killer")
+      element.innerHTML = "[One]"
+      parent.append(element);
+
+    }
+
+    const typeWrite = async(scroll_element, element,text) => {
+      if(text.charAt(0)=="["){
+        element.innerHTML=text;
+        scroll_element.scrollTop = scroll_element.scrollHeight;
+        await sleep(speed* 10);
+        return;
+      }
+      for(let i = 0; i< text.length; i++){
+        await sleep(speed);
+        clickAudio.play();
+        element.innerHTML += text.charAt(i);
+        scroll_element.scrollTop = scroll_element.scrollHeight;
+      }
+    }
+
+    const play = () => {
+      transcript();
+    }
+
+
+    window.onload = () => {
+      window.onclick = () => {
+        clickAudio.play();
+        if(humAudio.paused){
+          humAudio.loop = true;
+          humAudio.play();
+        }
+      }
+
+      window.onmousedown = ()=>{
+          speed = 0;
+      }
+      window.onmouseup = ()=>{
+        speed = 50;
+      }
+    }
+  </script>
+
+
+</head>
+
+<body>
+  <div id="crt">
+    <div class="scanline"></div>
+    <div class="lines"></div>
+
+    <div id="terminal">
+      <button onClick="play()">Click To Play Transcript</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
